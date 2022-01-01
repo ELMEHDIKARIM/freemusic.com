@@ -1,8 +1,4 @@
-<!-- this Code was made by El Mehdi Karim W19103330113 -->
-<!-- i hope you appreciate the effort and time i put into this project -->
-<!-- if you have any question you can contact me -->
-<!-- if you need any explanation contact me -->
-<!-- thank You :D -->
+
 const wrapper = document.querySelector(".wrapper"),
 musicImg = wrapper.querySelector(".img-area img"),
 musicName = wrapper.querySelector(".song-details .name"),
