@@ -40,5 +40,10 @@ let allMusic = [
     img: "music-6",
     src: "music-6"
   },
-  
+  {
+    name: "One Love",
+    artist: "Bob Marley",
+    img: "music-7",
+    src: "music-7"
+  },
 ];
