@@ -1,0 +1,105 @@
+
+html {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+body {
+    width: 100%;
+    display: table-cell;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.form{
+width: 100%;
+font-size: 16px;
+color: black;
+line-height: 30px;
+float: left;
+margin-left: 6%;
+font-family: Serif;
+font-weight: bold;
+}
+.button{
+display: block;
+font-size: 15px;
+padding: 15px;
+border-radius: 10px;
+background: pink;
+cursor: pointer;
+height: 50px;
+}
+.button1{
+display: block;
+font-size: 18px;
+padding: 10px;
+border-radius: 10px;
+background: pink;
+cursor: pointer;
+height: 50px;
+}
+.container{
+height: 100%;
+background-image: url(media/backimage.jpg);
+
+}
+p{
+font-size: 15px;
+}
+.navbar{
+width: 88%;
+margin: auto;
+padding: 15px 0;
+display: flex;
+align-items: center;
+justify-content: space-between
+}
+.logo{
+width: 100px;
+cursor: pointer;
+}
+.navbar ul li{
+list-style: none;
+display: inline-block;
+margin: 0 15px;
+}
+.navbar ul li a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+.active, .navbar ul li:hover
+{
+background: pink;
+border-radius: 3px;
+}
+.content{
+width: 90%;
+position: absolute;
+
+}
+.left-col{
+margin-left: 6%;
+padding: 1;
+}
+.left-col h1{
+font-size: 40px;
+color: black;
+line-height: 0px;
+float: left;
+}
+.right-col{
+margin-right: 6%;
+float: right;
+margin-top: 5px;
+display: flex;
+align-items: center;
+}
+#icon{
+width: 80px;
+cursor: pointer;
+}

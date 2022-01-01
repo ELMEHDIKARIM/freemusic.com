@@ -1,0 +1,137 @@
+<!-- this Code was made by El Mehdi Karim W19103330113 -->
+<!-- i hope you appreciate the effort and time i put into this project -->
+<!-- if you have any question you can contact me -->
+<!-- if you need any explanation contact me -->
+<!-- thank You :D -->
+<html>
+<head>
+          <title>New Generation</title>
+          <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <div class="navbar">
+          <img src="media/logo.png" class="logo">
+          <ul >
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About us</a></li>
+          </ul>
+        </div>
+        <div class="content">
+          <div class="left-col">
+          <h1>Music For Everyone</h1>
+          </div>
+          
+          <div class="right-col">
+          <p> Click Here to listen: <br> Bob Marley.Three Little Birds</p>
+          
+          <img src="media/play.png" id="icon">
+          </div>
+
+              <form action="connect.php" method="post" class="form">
+<p>This is where music lover meet to enjoy free music, register to access our platform</p>
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  name="firstName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  name="lastName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <div>
+                  <label for="male" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="m"
+                      id="male"
+                    />Male</label
+                  >
+                  <label for="female" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="f"
+                      id="female"
+                    />Female</label
+                  >
+                  <label for="others" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="o"
+                      id="others"
+                    />Others</label
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                />
+              </div>
+              <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="number"
+                  name="number"
+                />
+              </div>
+              <input type="submit" class="button"/>          
+            </form>
+<a href="another page/index.html">
+<button class="button1">Free Trial</button>
+</a>
+          </div>  
+        </div>
+
+      </div>
+      <audio id="mySong">
+      <source src="media/song.mp3" type="audio/mp3">
+      </audio>
+<script>
+var mySong = document.getElementById("mySong");
+var icon = document.getElementById("icon");
+icon.onclick = function(){
+if(mySong.paused){
+mySong.play();
+icon.src = "media/pause.png";
+}else{
+mySong.pause();
+icon.src = "media/play.png";
+}
+}
+</script>
+
+</body>
+</html>
